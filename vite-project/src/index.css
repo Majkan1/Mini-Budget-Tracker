@@ -4,6 +4,9 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
@@ -12,4 +15,30 @@ body {
 
 main {
   padding: 24px;
+}
+
+.Title{
+  align-items: center;
+  justify-content: center;
+}
+
+.Button-Add{
+  background-color: white;
+  padding: 10px;
+}
+
+.Income{
+  background-color: white;
+}
+
+.Income:focus{
+  background-color: gray;
+}
+
+.Expense{
+  background-color: white;
+}
+
+.Expense:focus{
+  background-color: gray;
 }
