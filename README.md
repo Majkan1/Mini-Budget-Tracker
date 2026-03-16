@@ -105,15 +105,6 @@ vite-project/
 
 ---
 
-## Roadmap
-
-- [ ] Add transaction categories (food, rent, entertainment)
-- [ ] Add local storage persistence — data survives page refresh
-- [ ] Add a chart showing income vs expenses over time
-- [ ] Add Vitest unit tests for calculation utilities
-
----
-
 ## License
 
 MIT
