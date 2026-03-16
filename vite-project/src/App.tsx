@@ -280,16 +280,53 @@ function Button(props: { now: () => void; }) {
 function List(props: { transactions: Transaction[] }) {
   if (props.transactions.length === 0) {
     return (
-      <div style={{ 
-        background: 'white', marginTop: '15px', borderRadius: '10px', 
-        padding: '20px', width: '300px', textAlign: 'center' 
+      <div style={{
+        background: 'linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)',
+        marginTop: '15px',
+        borderRadius: '14px',
+        padding: '22px',
+        width: '296px',
+        textAlign: 'center',
+        border: '1px solid #e5e7eb',
+        boxShadow: '0 10px 24px rgba(15, 23, 42, 0.08)'
       }}>
-        <p style={{ color: 'black', margin: '5px', fontSize: '14px', fontWeight: 'bold' }}>
+        <div style={{
+          width: '46px',
+          height: '46px',
+          borderRadius: '12px',
+          margin: '0 auto 10px auto',
+          background: 'linear-gradient(135deg, #111827 0%, #374151 100%)',
+          color: 'white',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }}>
+          $+
+        </div>
+        <p style={{ color: '#111827', margin: '6px 0', fontSize: '15px', fontWeight: 'bold' }}>
           No transactions yet
         </p>
-        <p style={{ color: 'gray', fontSize: '12px', margin: '5px' }}>
+        <p style={{ color: '#6b7280', fontSize: '12px', margin: '5px 0 14px 0' }}>
           Add your first one above
         </p>
+        <button
+          style={{
+            border: 'none',
+            borderRadius: '999px',
+            padding: '8px 14px',
+            fontSize: '12px',
+            fontWeight: 'bold',
+            color: '#ffffff',
+            background: 'linear-gradient(135deg, #0f172a 0%, #1f2937 100%)',
+            boxShadow: '0 8px 16px rgba(17, 24, 39, 0.24)',
+            cursor: 'pointer'
+          }}
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        >
+          + Add your first transaction
+        </button>
       </div>
     );
   }
