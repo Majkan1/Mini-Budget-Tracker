@@ -8,7 +8,7 @@ A clean, responsive single-page application for tracking personal income and exp
 
 ## Screenshot
 
-![Budget Tracker Screenshot](./screenshot.png)
+![Budget Tracker Screenshot](./vite-project/screenshot.png)
 
 > *Balance overview with separate income/expense cards, add transaction button, and empty state.*
 
