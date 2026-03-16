@@ -84,8 +84,8 @@ export default function App() {
 function Title() {
   return (
     <div className='Title'>
-      <h4 style={{ marginBottom: "5px", color: "#f3f4f6" }}>Budget Tracker</h4>
-      <p style={{ fontSize: "10px", color: "#9ca3af", marginTop: "5px" }}>Track your income & expenses</p>
+      <h4 style={{ marginBottom: "5px", color: "#111827" }}>Budget Tracker</h4>
+      <p style={{ fontSize: "10px", color: "#4b5563", marginTop: "5px" }}>Track your income & expenses</p>
     </div>
   );
 }
@@ -296,7 +296,7 @@ function List(props: { transactions: Transaction[] }) {
 
   return (
     <div style={{ marginTop: '15px', width: '320px' }}>
-      <h5 style={{ margin: '10px 0', color: '#e5e7eb' }}>Recent Transactions</h5>
+      <h5 style={{ margin: '10px 0', color: '#1f2937' }}>Recent Transactions</h5>
       {props.transactions.map((t) => (
         <div key={t.id} style={{
           backgroundColor: 'white',
