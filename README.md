@@ -1,6 +1,5 @@
 # 💰 Mini Budget Tracker
 
-<<<<<<< HEAD
 A lightweight and intuitive Budget Tracker web app that helps you manage your finances with ease. Built with **React + TypeScript + Vite** for a fast, modern user experience.
 
 ## Overview
@@ -20,10 +19,9 @@ Mini Budget Tracker is a personal finance management tool designed to help you t
 🏷️ **Category Management** — Organize transactions by custom categories  
 ⚡ **Fast & Responsive** — Built with Vite for instant load times  
 📱 **Modern Tech Stack** — Powered by React and TypeScript for reliability
-=======
+
 Mini Budget Tracker is a simple web application for tracking income and expenses.  
 The app allows users to add transactions, categorize them, and see the current balance.
->>>>>>> cefeb00eb94738aa53be1b4729a6e258b4ddbc95
 
 ## 🚀 Features
 
