@@ -254,7 +254,7 @@ function AddTask(props: {
       
       <button onClick={() => {
           props.handleAction();
-          props.onClose(); /
+          props.onClose();
         }} 
         style={{
           width: "310px", borderRadius: '8px', color: 'white',
