@@ -311,22 +311,6 @@ function List(props: { transactions: Transaction[] }) {
         <p style={{ color: '#6b7280', fontSize: '12px', margin: '5px 0 14px 0' }}>
           Add your first one above
         </p>
-        <button
-          style={{
-            border: 'none',
-            borderRadius: '999px',
-            padding: '8px 14px',
-            fontSize: '12px',
-            fontWeight: 'bold',
-            color: '#ffffff',
-            background: 'linear-gradient(135deg, #0f172a 0%, #1f2937 100%)',
-            boxShadow: '0 8px 16px rgba(17, 24, 39, 0.24)',
-            cursor: 'pointer'
-          }}
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        >
-          + Add your first transaction
-        </button>
       </div>
     );
   }
