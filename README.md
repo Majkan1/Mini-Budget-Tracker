@@ -1,5 +1,6 @@
-# Mini Budget Tracker
+# 💰 Mini Budget Tracker
 
+<<<<<<< HEAD
 A lightweight and intuitive Budget Tracker web app that helps you manage your finances with ease. Built with **React + TypeScript + Vite** for a fast, modern user experience.
 
 ## Overview
@@ -19,52 +20,34 @@ Mini Budget Tracker is a personal finance management tool designed to help you t
 🏷️ **Category Management** — Organize transactions by custom categories  
 ⚡ **Fast & Responsive** — Built with Vite for instant load times  
 📱 **Modern Tech Stack** — Powered by React and TypeScript for reliability
+=======
+Mini Budget Tracker is a simple web application for tracking income and expenses.  
+The app allows users to add transactions, categorize them, and see the current balance.
+>>>>>>> cefeb00eb94738aa53be1b4729a6e258b4ddbc95
 
-## Live demo (GitHub Pages)
+## 🚀 Features
 
-After Pages is enabled and the workflow finishes, the app will be available at:
+- Add income and expense transactions
+- Calculate total balance
+- Track income and expenses separately
+- Simple and clean UI
+- Component-based structure
 
-- https://majkan1.github.io/Mini-Budget-Tracker/
+## 🛠️ Tech Stack
 
-## Project structure
+- React
+- TypeScript
+- CSS
+- Vite
 
-This repo keeps the Vite app inside the `vite-project/` folder.
+## 📚 What I learned
 
-- App code: `vite-project/src/`
-- Vite config: `vite-project/vite.config.ts`
+- React state management
+- Handling forms in React
+- Component structure
+- TypeScript basics
+- Working with arrays and objects in state
 
-## Run locally
+## 🎯 Purpose
 
-Requirements: **Node.js 20+** recommended.
-
-```bash
-cd vite-project
-npm install
-npm run dev
-```
-
-## Scripts
-
-From inside `vite-project/`:
-
-- `npm run dev` — start dev server
-- `npm run build` — typecheck + production build
-- `npm run preview` — preview production build locally
-- `npm run lint` — run ESLint
-
-## Deploy to GitHub Pages
-
-This repo includes a GitHub Actions workflow that builds the app and deploys the `vite-project/dist` output to GitHub Pages:
-
-- Workflow file: `.github/workflows/deploy-pages.yml`
-
-One-time setup in GitHub:
-
-1. Go to **Repo Settings → Pages**
-2. Under **Build and deployment**, set **Source** to **GitHub Actions**
-3. Push to `main` (or run the workflow manually) and wait for it to finish in the **Actions** tab
-
-## Notes
-
-- `node_modules/` and `dist/` are intentionally not committed.
-- If you rename the repository, update the repo name in `vite-project/vite.config.ts` so GitHub Pages paths keep working.
+This project was created to practice React and TypeScript and to improve my frontend development skills.

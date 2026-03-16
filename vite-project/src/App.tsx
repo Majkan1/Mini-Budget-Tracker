@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-// Define a type for a single transaction
 type Transaction = {
   id: number;
   title: string;
@@ -11,17 +10,15 @@ type Transaction = {
 };
 
 export default function App() {
-  // State for the list of all transactions
+  
   const [transactions, setTransactions] = useState<Transaction[]>([]);
 
-  // State for the new transaction being added
   const [title, setTitle] = useState('');
-  const [amount, setAmount] = useState<number | ''>(''); // Allow empty string for initial state
+  const [amount, setAmount] = useState<number | ''>(''); 
   const [date, setDate] = useState('');
   const [transactionType, setTransactionType] = useState<'income' | 'expense'>('expense');
   const [category, setCategory] = useState('');
 
-  // Calculate totals derived from transactions
   const income = transactions
     .filter(t => t.type === 'income')
     .reduce((acc, curr) => acc + curr.amount, 0);
@@ -33,7 +30,7 @@ export default function App() {
   const total = income - expenses;
 
   const handleAction = () => {
-    // Basic validation
+   
     if (!title || !amount || !date) {
       alert("Please fill in all fields");
       return;
@@ -50,7 +47,7 @@ export default function App() {
 
     setTransactions([...transactions, newTransaction]);
 
-    // Reset form
+    
     setTitle('');
     setAmount('');
     setDate('');
@@ -257,7 +254,7 @@ function AddTask(props: {
       
       <button onClick={() => {
           props.handleAction();
-          props.onClose(); // Optional: Close after adding
+          props.onClose(); /
         }} 
         style={{
           width: "310px", borderRadius: '8px', color: 'white',
