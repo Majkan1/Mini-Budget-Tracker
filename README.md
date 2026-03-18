@@ -4,7 +4,7 @@ A simple and clean React + TypeScript app for tracking personal income and expen
 
 ## 🚀 Live Demo
 
-> Add your deployed link here (e.g. Vercel / Netlify / GitHub Pages)
+https://majkan1.github.io/Mini-Budget-Tracker/
 
 ## 📸 Preview
 
