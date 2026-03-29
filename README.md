@@ -49,7 +49,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Mini-Budget-Tracker.git
+git clone https://github.com/Majkan1/Mini-Budget-Tracker.git
 
 # Navigate to the project folder
 cd your-repo-name
