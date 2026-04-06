@@ -107,7 +107,6 @@ function MainPart(props: {
     <div style={{
       width: '100%',
       maxWidth: '320px',
-      background: 'linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(248,250,252,0.98) 100%)',
       borderRadius: '24px',
       padding: '20px',
       border: '1px solid rgba(255,255,255,0.7)',
