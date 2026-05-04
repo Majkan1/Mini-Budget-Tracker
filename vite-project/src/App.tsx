@@ -1,14 +1,5 @@
 import { useState } from 'react';
-
-type Transaction = {
-  id: number;
-  title: string;
-  amount: number;
-  date: string;
-  type: 'income' | 'expense';
-  category: string;
-};
-
+import type Transaction from "./Transaction"
 export default function App() {
   
   const [transactions, setTransactions] = useState<Transaction[]>([]);
