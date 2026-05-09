@@ -26,14 +26,12 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: vite-project/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install
-        working-directory: vite-project
         run: npm ci
 
       - name: Build
-        working-directory: vite-project
         run: npm run build
 
       - name: Configure Pages
@@ -42,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: vite-project/dist
+          path: dist
 
   deploy:
     needs: build
