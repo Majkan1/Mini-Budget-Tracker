@@ -13,7 +13,7 @@ export default function App() {
   const [amount, setAmount] = useState<number | ''>(''); 
   const [date, setDate] = useState('');
   const [transactionType, setTransactionType] = useState<'income' | 'expense'>('expense');
-  const [category, setCategory] = useState('');
+  const [category, setCategory] = useState('') ;
 
   const income = transactions
     .filter(t => t.type === 'income')
